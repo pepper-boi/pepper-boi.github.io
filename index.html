@@ -30,11 +30,12 @@ make-smaller-titles: true
               <ul>
                   {% for post in site.projects limit: site.post_limit %}
 
-                      <li>
+                      <h1>
                           <img src="{{ post.image }}" style="border-radius: 20%;" height="75" width="75" alt="{{ site.title }}" />
                           <a href="{{ post.url }}"></a>
                           <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-                      </li>
+                          <br>
+                      </h1>
 
                   {% endfor %}
                   <li>
