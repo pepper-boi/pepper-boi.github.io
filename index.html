@@ -50,30 +50,20 @@ make-smaller-titles: true
             <div class="articles">
 
               <h2>Latest Articles</h2>
-                
-      <div class="col-md-12 content-panel articles">
-        <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-        <ul>
 
-          <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-          </li>
-      </div>
-<!--               <ul>
+              <ul>
                   {% for post in site.posts limit: site.post_limit %}
 
                       <li>
-                          <a class="large" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <h3 class="large">{{ post.title }}</h3>
+                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                           <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
                       </li>
 
                   {% endfor %}
                   <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more posts...</a></i></small>
+                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
                   </li>
-              </ul> -->
+              </ul>
 
             </div>
 
