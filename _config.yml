@@ -13,15 +13,8 @@ addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: 
 github_username: pepper-boi
-instagram_username: 
-reddit_username: 
-linkedin_link:
-google_plus_link:
-stackoverflow_link:
-xing_link:
-facebook_link:
+itch_username: pepperboi
 
 # Footer
 footer_left: "Made using <a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte Noire</a>, <a href=\"https://jekyllrb.com\">Jekyll</a>, and <a href=\"https://pages.github.com/\">Github Pages</a>."
