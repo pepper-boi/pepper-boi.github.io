@@ -53,11 +53,6 @@ body {
 	width: 100%
 }
 
-.large {
-	a {
-		font-size: 126px;
-	}
-}
 
 a, a:active {
 	color: $light-blue;
@@ -335,8 +330,10 @@ ul {
 					color: $light-medium;
 				}
 
-				large {
-					font-size: 26px;
+				.large {
+					a {
+						font-size: 126px;
+					}
 				}
 
 			}
