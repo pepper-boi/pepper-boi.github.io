@@ -85,11 +85,15 @@ ul {
 	border-radius: 5%;
 	height: 250px;
 	width: 315px;
-	@media (min-width: $screen-sm-min) {
-		height: 157px;
-		width: 200px;
-		margin: 4px;
-	}
+	margin: 12px;
+}
+
+@media (min-width: 768px) {
+    .projects {
+        height: 157px;
+        width:200px;
+        margin: 4px;
+    }
 }
 
 .navbar, .nav {
