@@ -85,11 +85,11 @@ ul {
 	border-radius: 5%;
 	height: 250px;
 	width: 315px;
-	margin-left: 4px;
-	margin-right: 4px;
+	margin: 4px;
 	@media (min-width: $screen-sm-min) {
 		height: 157px;
 		width: 200px;
+		margin: 32px;
 	}
 }
 
