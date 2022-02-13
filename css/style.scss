@@ -88,12 +88,23 @@ ul {
 	margin: 10px 20px;
 }
 
+.project-container {
+	width: 315px;
+	margin: 10px 20px;
+	float: center;
+}
+
 @media (min-width: 768px) {
     .projects {
         height: 157px;
-        width:200px;
+        width: 200px;
         margin: 4px;
     }
+	.project-container {
+		width: 315px;
+		float: left;
+		margin: 10px 20px;
+	}
 }
 
 .navbar, .nav {
